@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    defer-datasource-initialization: true
+
+    #defer-datasource-initialization ==> 애플리케이션을 실행할 때 테이블을 생성하고 data.sql 파일에 있는 쿼리를 실행하도록 함;
+    #시동거는 순서? yml이 언제 읽히는지? :: yml 상위 data.sql 실행 (하위)
