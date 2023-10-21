@@ -1,8 +1,9 @@
-import org.junit.Test;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
+//import org.junit.Test;
+//import org.junit.jupiter.api.AfterAll;
+//import org.junit.jupiter.api.AfterEach;
+//import org.junit.jupiter.api.BeforeAll;
+//import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.*;
 
 public class JUnitCycleTest {
     @BeforeAll  //전체 테스트를 실행하기 전에 1회 실행하므로 메서드는 static으로 선언, static은 무엇인가? 한번실행한다고 할떄?
