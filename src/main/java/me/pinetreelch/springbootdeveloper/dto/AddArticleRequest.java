@@ -18,7 +18,8 @@ public class AddArticleRequest {
     public Article toEntitiy()
     {
         //생성자를 사용해 객체 생성
-
+        //에러가 나지만 잘되는;;
+        //builder 에러인데 왜 실행되는거지
         return Article.builder()
                 .title(title)
                 .content(content)
